@@ -71,8 +71,9 @@ header{
     background-image: url('./img/bg-form.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 80%;
-    background-position: top;
+    background-size: 80% 100%;
+    
+    background-position: bottom;
     background-color: rgb(71, 66, 62);
     
 }
@@ -136,3 +137,122 @@ header{
 .form-container form p{
     font-size: 12px;
 }
+
+.icone-seta{
+    
+	margin-left: 50%;
+	margin-top: -20px;
+	width: 64px;
+	height: 64px;
+	background-size: 100% 100%;
+    background-image: url('./img/arrow.png');
+    z-index: 1;
+    position: relative;
+}
+
+.chamada-empreendimento{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    margin-top: -45px;
+    color: #FFFFFF;
+    padding:60px;
+       
+}
+
+
+
+.mosaico .container .mosaico-um{
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.mosaico .container p{
+    background-color: #9a9ae1;
+    color: #FFFFFF;
+    padding: 50px 50px;
+    
+}
+
+@media (max-width:1080px){
+    .mosaico .container .mosaico-um{
+       display: flex;
+       flex-direction: column;
+    }
+    .mosaico .container .mosaico-dois{
+        display: flex;
+        
+        flex-wrap: wrap;
+     }
+     .mosaico .container .mosaico-tres{
+        display: flex;
+        
+        flex-wrap: wrap;
+     }
+     .mosaico .container .mosaico-quatro{
+        display: flex;
+        
+        flex-wrap: wrap;
+     }
+     .mosaico .container img{
+        width: 1200px;
+        
+    }
+    
+}
+
+.mosaico .container img{
+    max-width: 650px;
+    
+    
+}
+
+.mosaico .container .mosaico-dois{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.mosaico .container .mosaico-tres{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.mosaico .container .mosaico-quatro{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+footer div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #D6D6D6;
+    padding: 20px;
+}
+
+footer div img{
+   
+    
+    width: 120px;
+    height: 40px;
+}
+
